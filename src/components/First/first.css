@@ -153,4 +153,46 @@ h1{
         flex-shrink: 0;
         padding-left: 313px;
     }
+    .card-front{
+        top: 187px;
+        left: 164px;
+        width: 447px;
+        height: 245px;
+        flex-shrink: 0;
+    }
+    .circles{
+        right: 331px;
+        top: 28px;
+    }
+    .white-circle{
+        width: 46.957px;
+        height: 47px;
+        flex-shrink: 0;
+    }
+    .transparent-circle{
+        width: 28px;
+        height: 28px;
+    }
+    .first-h1{
+        color: var(--White, #FFF);
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .first-h2{
+        margin-top: 139px;
+        margin-bottom: 25px;
+        font-size: 28px;
+        letter-spacing: 3.422px;
+    }
+    .first-h3{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .first-h4{
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    .name-surname{
+        column-gap: 185px;
+    }
 }

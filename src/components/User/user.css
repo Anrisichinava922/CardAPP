@@ -5,7 +5,7 @@
     margin-top: 90px;
     row-gap: 20px;
 }
-.chn-h1, .cn-h2, .exp-h3{
+.user-h1, .user-h2, .user-h3{
     color: var(--Deep-Violet, #21092F);
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 12px;
@@ -90,4 +90,48 @@ button{
 }
 button:hover{
     background-color: green;
+}
+
+
+
+
+
+@media (width > 1440px){
+    .user-card-details{
+        position: absolute;
+        top: 200px;
+        left: 832px;
+        row-gap: 30px;
+    }
+    .user-h1,.user-h2,.user-h3{
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    .ch-input, .cn-input{
+        width: 381px;
+        height: 45px;
+        flex-shrink: 0;
+        font-size: 18px;
+    }
+    .month,.year{
+        width: 80px;
+        height: 45px;
+        flex-shrink: 0;
+        font-size: 18px;
+    }
+    .digitalcode{
+        width: 191px;
+        height: 45px;
+        flex-shrink: 0;
+        font-size: 18px;
+    }
+    button{
+        width: 381px;
+        height: 53px;
+        flex-shrink: 0;
+        font-size: 18px;
+    }
+    .expiration-date{
+        column-gap: 14px;
+    }
 }
